@@ -50,7 +50,7 @@ useragent = ['Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.10 sun4u; X11)',
                    "Mozilla/5.0 (Windows NT 5.0; rv:5.0) Gecko/20100101 Firefox/5.0"]
  
 referer = ['http://google.com','http://bing.com','http://facebook.com','http://twitter.com']
-link    = 'http://itungin.id/' #input link
+link    = 'http://artirta.my.id/' #input link
  
 def Autoclicker(proxy1):
     try:
@@ -62,7 +62,7 @@ def Autoclicker(proxy1):
                                                 ('Referer', random.choice(referer))]
         urllib.request.install_opener(opener)
         f = urllib.request.urlopen(link)
-        if "http://itungin.id/" in f.read(): #input link
+        if "http://artirta.my.id/" in f.read(): #input link
            print("[X] Link Berhasil Di Kunjungi ...")
         else:
            print("[X] Link gagal di kunjungi !")
